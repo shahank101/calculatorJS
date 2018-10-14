@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}  
+
+.numButtons, #back, #clear {
+    width: 80px;
+    height: 75px;
+    border: none;
+    display: grid;
+    font-size: 20px;
+}
+.numButtons:active, .operators:active, #back:active, #clear:active, #equals:active {
+    background-color: lightgray;
+}
+
+#equals {
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    border: none;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.green {
+    background-color: #4ADD4A;
+    color: white;
+}
+
+#display {
+    margin: auto;
+    padding: -2px;
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    text-align: right;
+    background-color: white;
+}
